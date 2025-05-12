@@ -1,0 +1,3 @@
+// This is a placeholder for a particle texture.
+// In a real implementation, you would need to add a small PNG image for the particle effect.
+// You can create a small white circle with soft edges, size around 32x32 or 64x64 pixels.
