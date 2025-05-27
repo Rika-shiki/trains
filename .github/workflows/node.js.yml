@@ -29,18 +29,12 @@ jobs:
         cd backend
         npm install
         
-    - name: Installing frontend npm packages, build then copy files
+    - name: Installing frontend npm packages
       run : |
         cd frontend
         npm install
-        npm run build
 
-    - name: Copy frontend build to backend
+    - name: Build frontend
       run : |
-        cp -r frontend/build/* backend/public/
-
-    - name: Deploy Backend
-      run: |
-        cd backend
-        npm start
+        npm run build
         
