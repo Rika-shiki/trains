@@ -15,6 +15,8 @@ app.use(express.json());
 // Connect to DB
 connectDB();
 
+app.get('/', (req,res)=>{res.send("Wroking properly")})
+
 // Routes
 app.use('/api/auth', authRoutes);
 app.use('/api', contactRoutes);
