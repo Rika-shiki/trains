@@ -28,4 +28,12 @@ jobs:
       run: |
         cd backend
         npm install
+
+    - name: Restart Backend server
+      run: |
+        pm2 restart backend
+
+    - name: Restart Backend and Frontend
+      run: |
+        sudo systemctl restart nginx
         
