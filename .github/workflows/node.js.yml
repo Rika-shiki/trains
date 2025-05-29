@@ -29,4 +29,8 @@ jobs:
         cd backend
         npm install
 
+    - name: Restart frontend and backend servers
+      run: |
+        pm2 restart server
+        sudo systemctl restart nginx
         
