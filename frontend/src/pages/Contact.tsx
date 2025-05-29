@@ -32,7 +32,7 @@ const Contact = () => {
     setIsSubmitting(true);
     
     try {
-      const response = await fetch('http://localhost:3000/node_app/api/contact', {
+      const response = await fetch('http://trainsapp.org/node_app/api/contact', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',

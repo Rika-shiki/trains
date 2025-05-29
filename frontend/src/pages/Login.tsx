@@ -28,7 +28,7 @@ const Login: React.FC = () => {
     setErrorMessage('');
 
     try {
-      const response = await axios.post<LoginResponse>('http://localhost:3000/node_app/api/auth/login', {
+      const response = await axios.post<LoginResponse>('http://trainsapp.org/node_app/api/auth/login', {
         email,
         password,
       });

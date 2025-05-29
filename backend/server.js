@@ -15,7 +15,7 @@ app.use(express.json());
 // Connect to DB
 connectDB();
 
-app.get('/', (req,res)=>{res.send("Wroking properly")})
+app.get('/', (req,res)=>{res.send("Welcome to trainsapp.org rest api's")})
 
 // Routes
 app.use('/api/auth', authRoutes);

@@ -24,7 +24,7 @@ const Register = () => {
   const handleRegister = async (e: React.FormEvent) => {
     e.preventDefault();
     try {
-      const response = await fetch('http://localhost:3000/node_app/api/auth/register', {
+      const response = await fetch('http://trainsapp.org/node_app/api/auth/register', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
