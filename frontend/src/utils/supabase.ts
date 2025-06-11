@@ -7,6 +7,7 @@ import karishma from '../assets/images/karishma.jpg';
 import bhuvan from '../assets/images/buvanesh.jpg';
 import gayathri from '../assets/trin_img-1.jpg';
 import guru from '../assets/images/guru.jpg';
+import nantha from '../assets/images/nantha.jpg';
 import subash from '../assets/images/subash.jpg';
 import pranav from '../assets/images/pravav.jpg';
 import prabanjan from '../assets/images/praba.jpg';
@@ -70,6 +71,22 @@ export const getTeamMembers = async () => {
           image: ram,
         },
         {
+          id: 7,
+          name: 'M. GURU PRASATH',
+          position: 'Chief Technology Officer',
+          quote: 'Code is the new canvas – I help students paint their success story.',
+          // image: 'https://randomuser.me/api/portraits/men/4.jpg',
+          image: guru,
+        },
+        {
+          id: 7,
+          name: 'S.P. NANTHA KUMAR',
+          position: 'Chief Finance Officer',
+          quote: 'Numbers tell a story – I ensure every student’s success is financially sound and future-ready.',
+          // image: 'https://randomuser.me/api/portraits/men/4.jpg',
+          image: nantha,
+        },
+        {
           id: 4,
           name: 'KARISHMA',
           position: 'Director of Human Resources',
@@ -92,14 +109,6 @@ export const getTeamMembers = async () => {
           quote: 'Marketing isn\'t about selling – it\'s about making our mission visible to the world.',
           // image: 'https://randomuser.me/api/portraits/women/3.jpg',
           image: gayathri,
-        },
-        {
-          id: 7,
-          name: 'M. GURU PRASATH',
-          position: 'Chief Technology Officer',
-          quote: 'Code is the new canvas – I help students paint their success story.',
-          // image: 'https://randomuser.me/api/portraits/men/4.jpg',
-          image: guru,
         },
         {
           id: 8,
